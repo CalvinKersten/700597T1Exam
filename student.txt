@@ -1,0 +1,6 @@
+Student name: Calvin Kersten
+Student number: 700597
+Student class: IT1B
+Site: CalvinKersten.github.io
+Repository: https://github.com/CalvinKersten/700597T1Exam.git
+

@@ -1,0 +1,146 @@
+header{
+	display: flex;
+	flex-direction: column;
+	background: #FA0;
+	height: 240px;
+}
+.header .logo{
+	width: 400px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	align-self: center;
+}
+.header .title{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+}
+.header .payoff{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	background-color: #FFF;
+}
+ul li{
+	list-style: none;
+	margin: auto;
+	font-size: 30px;
+	padding: 0 0 5px 5px;
+}	
+figure {
+		float: right;
+		left: 150%;
+	}
+		.Cookie-statement {
+		box-sizing: border-box;
+		font-family: sans-serif;
+		position: fixed;
+		right: 2em;
+		bottom: 2em;
+		background-color: #FA0;	
+		padding: 1.5em;
+		border: solid 1px;
+		opacity: 50%;
+	}
+	.footer{
+	background: #d3d3d3;
+	max-height: 100%;
+	order: 4;
+	}
+	.footer h1{
+		text-align: center;
+}
+@media screen and (min-width: 1280px){
+	.main{
+		display: flex;
+		flex-direction: column;
+		flex: 3;
+	}
+	.container .promo-video{
+		width: 800px;
+		background: #000;
+		border: solid;
+		padding-left: 30%;
+		padding-right: 35%;
+	}
+	.container img{
+		width: 450px;
+		height: 300px;
+		}
+	.container p{
+		width: 50%;
+		font-size: 30px;
+	}
+	.container h1{
+		font-size: 40px;
+	}
+	.images {
+		padding: 0;
+		margin: 0;
+		width: 70%;
+		border: solid;
+		border-radius: 5px;
+		order: 2;
+		background-color: #0AA;
+	}
+	.aside{
+		display: flex;
+		order: 1;
+		width: 25%;
+		justify-content: flex-end;
+		padding-left: 75%;
+		position: absolute;
+		
+	}
+	.aside li{
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+}
+@media screen and (min-width: 480px){
+	.aside{
+		display: flex;
+		order: 1;
+		width: 25%;
+		justify-content: flex-end;
+		padding-left: 75%;
+		position: absolute;
+		
+	}
+	.aside li{
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+	.container .promo-video{
+		width: 800px;
+		background: #000;
+		border: solid;
+		padding-left: 30%;
+		padding-right: 35%;
+	}
+	.container p{
+		width: 50%;
+		font-size: 30px;
+	}
+	.container h1{
+		font-size: 40px;
+	}
+	.images {
+		padding: 0;
+		margin: 0;
+		width: 70%;
+		border: solid;
+		border-radius: 5px;
+		order: 2;
+		background-color: #0AA;
+	}
+
+@media screen and (min-width: 0px){
+}
+
